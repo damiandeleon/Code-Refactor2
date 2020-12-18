@@ -1,0 +1,147 @@
+/* This is the active homework code */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* updated / changed "div" to "hgroup" as the name changed in the HTML file */
+.header hgroup {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* updated / changed "div" to "hgroup" as the name changed in the HTML file */
+.header hgroup ul {
+    list-style-type: none;
+}
+
+/* updated / changed "div" to "hgroup" as the name changed in the HTML file */
+.header hgroup ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Changed to ID selector instead of class selector so that the HTML would properly call */
+#hero {
+    /* adjusted the height of the page as it was too vertically stretched */
+    height: 750px;
+    width: 100%;
+    margin-bottom: 25px;
+    /* background image moved to HTML file */
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Relocated the main page content above the benefits section so the code follows a natural flow as the HTML file*/
+/* combined each of the content children classes into one class since they are all identical */
+.content-details {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* combined the distinct img classes into one class since the formatting for each was all identical */
+.content-details img {
+    max-height: 200px;
+}
+
+/* combined the distince h2 classes into one class since the formatting for each was identical */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+ 
+    /* redued unnecessary div and combined them into one div */
+}
+.benefit-content {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* combined the benefit h3 classes into one class and udpated the name to reflect the class they all flow up to */
+.benefit-content h3 {
+    /* updated top margin to 30px to provide for natural space between the top and bottom of each div section */
+    margin-top: 30px; 
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* reduced separate img formats under one class  */
+.benefit-content img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
